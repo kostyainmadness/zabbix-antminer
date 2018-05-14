@@ -2,8 +2,6 @@
 
 An external script and template for getting AntMiner T9+ metrics into Zabbix
 
-![Zabbix screen](screenshots/zabbix.png?raw=true "Zabbix screen")
-
 # How it works
 
 * Get AntMiner metrics from `/cgi-bin/get_miner_status.cgi` output by HTTP
