@@ -1,6 +1,6 @@
 # zabbix-antminer
 
-An external script and template for getting AntMiner metrics into Zabbix
+An external script and template for getting AntMiner T9+ metrics into Zabbix
 
 ![Zabbix screen](screenshots/zabbix.png?raw=true "Zabbix screen")
 
@@ -13,10 +13,10 @@ An external script and template for getting AntMiner metrics into Zabbix
 # Supported metrics
 * Fan 3, 6
 * GH/S (RT)
-* Temp chip2 for chain 6-7
+* Temp chip2 for chain 2-4,9-14
 
 # Supported triggers
-* Temp any chip chain > 80
+* Temp any chip chain > 85
 
 # Requirements
 * Python 2 or 3
