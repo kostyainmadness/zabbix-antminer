@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-05-14T01:54:46Z</date>
+    <date>2018-06-08T01:33:33Z</date>
     <groups>
         <group>
             <name>Mining</name>
@@ -29,7 +29,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.fan3&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -70,7 +70,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.fan6&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -111,7 +111,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_2&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -152,7 +152,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_3&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -193,7 +193,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_4&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -234,7 +234,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_9&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -275,7 +275,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_10&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -316,7 +316,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_11&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -357,7 +357,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_12&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -398,7 +398,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_13&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -439,7 +439,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.temp2_14&quot;]</key>
-                    <delay>30</delay>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -475,12 +475,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>GH/S (RT)</name>
+                    <name>GH/S(ideal)</name>
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;summary.ghs5s&quot;]</key>
-                    <delay>30</delay>
+                    <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.total_rateideal&quot;]</key>
+                    <delay>60s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -517,6 +517,132 @@
                             <params>0.001</params>
                         </step>
                     </preprocessing>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Elapsed(uptime)</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;summary.elapsed&quot;]</key>
+                    <delay>60s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>s</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>bmminer</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>GH/S (RT)</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;summary.ghs5s&quot;]</key>
+                    <delay>60s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>GH/S</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>bmminer</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing>
+                        <step>
+                            <type>1</type>
+                            <params>0.001</params>
+                        </step>
+                    </preprocessing>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>ICMP ping</name>
+                    <type>3</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>icmpping</key>
+                    <delay>1m</delay>
+                    <history>1w</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications/>
+                    <valuemap>
+                        <name>Service state</name>
+                    </valuemap>
+                    <logtimefmt/>
+                    <preprocessing/>
                     <jmx_endpoint/>
                     <master_item/>
                 </item>
@@ -628,6 +754,28 @@ or {AntMiner T9 plus:antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT
             <tags/>
         </trigger>
         <trigger>
+            <expression>{AntMiner T9 plus:antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;devs.0.freq.total_rateideal&quot;].last()}&lt;10</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>Ideal hashrate is low on {HOST.NAME}</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Check your hardware</description>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies>
+                <dependency>
+                    <name>{HOST.NAME} is unavailable by ICMP</name>
+                    <expression>{AntMiner T9 plus:icmpping.max(#3)}=0</expression>
+                    <recovery_expression/>
+                </dependency>
+            </dependencies>
+            <tags/>
+        </trigger>
+        <trigger>
             <expression>{AntMiner T9 plus:antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;summary.ghs5s&quot;].last()}&lt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
@@ -637,6 +785,44 @@ or {AntMiner T9 plus:antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT
             <url/>
             <status>0</status>
             <priority>5</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies>
+                <dependency>
+                    <name>{HOST.NAME} is unavailable by ICMP</name>
+                    <expression>{AntMiner T9 plus:icmpping.max(#3)}=0</expression>
+                    <recovery_expression/>
+                </dependency>
+            </dependencies>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{AntMiner T9 plus:antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT}&quot;, &quot;{$HTTP.USERNAME}&quot;, &quot;{$HTTP.PASSWORD}&quot;, &quot;summary.elapsed&quot;].change(0)}&lt;0</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>{HOST.NAME} has just been restarted</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>0</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{AntMiner T9 plus:icmpping.max(#3)}=0</expression>
+            <recovery_mode>0</recovery_mode>
+            <recovery_expression/>
+            <name>{HOST.NAME} is unavailable by ICMP</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -838,4 +1024,19 @@ or {AntMiner T9 plus:antminer-zbx-chk[&quot;{HOST.CONN}&quot;, &quot;{$HOST.PORT
             </graph_items>
         </graph>
     </graphs>
+    <value_maps>
+        <value_map>
+            <name>Service state</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Down</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Up</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
 </zabbix_export>
