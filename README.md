@@ -12,9 +12,16 @@ An external script and template for getting AntMiner T9+ metrics into Zabbix
 * Fan 3, 6
 * GH/S (RT)
 * Temp chip2 for chain 2-4,9-14
+* Elapsed time (Uptime)
+* GH/s (ideal)
+* ICMP ping
 
 # Supported triggers
 * Temp any chip chain > 85
+* GH/s (ideal) < 10 TH
+* GH/s (RT) < 10 TH
+* ICMP ping
+* Elapsed time (Uptime) < 0
 
 # Requirements
 * Python 2 or 3
